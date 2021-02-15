@@ -1,0 +1,1 @@
+export const sortBy = (list, field) => list.sort((a, b) => a[field] > b[field]);

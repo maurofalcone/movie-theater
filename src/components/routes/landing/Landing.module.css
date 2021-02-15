@@ -1,0 +1,32 @@
+div.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.content {
+    display: flex;
+    flex-wrap: wrap;
+    height: calc(100% - 60px);
+    background-color: var(--main-bg);
+}
+
+div.filtersContainer {
+    display: flex;
+    align-items: center;
+    width: 1570px;
+}
+
+div.searchContainer {
+    margin: 25px 50px 25px 5px;
+}
+
+div.starsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+div.starsContainer div {
+    display: flex;
+}

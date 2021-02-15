@@ -1,0 +1,13 @@
+div.container {
+    background-color: var(--main-bg);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+
+div.container div.childrenContainer {
+    width: 1610px;
+}
